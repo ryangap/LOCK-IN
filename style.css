@@ -12,7 +12,7 @@ header {
     background-color: #121212;
     position: fixed;
     height: 10.9vh;
-    font-size: 12px;
+    font-size: 16px;
     margin-top: -10.9vh;
 }
 
@@ -173,9 +173,146 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 89.1vh;
 }
 
 .home img {
+    margin-top: -15vh;
     height: 80vh;
+}
+
+.sobre {
+    font-family: "Poppins", sans-serif;
+}
+
+.title-sobre {
+    margin-left: 3vw;
+    padding-top: 5vh;
+}
+
+.title-sobre .h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+}
+.title-sobre .p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    height: 19vh;
+    width: 15.5vh;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.card img {
+    height: 14vh;
+    width: 14vh;
+    margin-top: 0.7vh;
+    border-radius: 10px;
+}
+
+.img p {
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 0.2vh;
+    color: #000;
+    text-align: center;
+}
+
+.title-text-left {
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.text-left {
+    margin-top: 6vh;
+    margin-left: 6vw;
+}
+
+.card-text {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    margin-left: 1px;
+}
+
+.text-card {
+    margin-left: 10px;
+    font-weight: 200;
+    font-size: 14px;
+    width: 10vw;
+}
+
+.texts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.text-middle{
+    margin-top: 4vh;
+}
+
+.title-middle {
+    display: flex;
+    font-size: 24px;
+    font-weight: 300;
+    justify-content: center;
+}
+.door img{
+    height: 50vh;
+    margin-top: 5vh;
+}
+
+.door {
+    display: flex;
+    justify-content: center;
+}
+
+.sobre {
+    height: 89.1vh;
+}
+
+.title-right {
+    margin-top: 6vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 24px;   
+}
+
+.card-right {
+    justify-content: center;
+    height: 19vh;
+    width: 15.5vh;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000000;
+    margin: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.card-right img {
+    height: 14vh;
+    width: 14vh;
+    border-radius: 10px;
+    margin-top: 6.734px;
+}
+
+.card-right p {
+    margin-top: 5px;
+}
+
+.text-right {
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
