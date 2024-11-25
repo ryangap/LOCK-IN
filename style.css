@@ -309,10 +309,47 @@ main {
 
 .card-right p {
     margin-top: 5px;
+    font-size: 10px;
 }
 
 .text-right {
     display: grid;
     justify-content: center;
     align-items: center;
+}
+
+.img p{
+    font-size: 10px;
+}
+
+.sobre{
+    background-color: #262626;    
+    height: 98.8vh;
+}
+
+.clientes .h1{
+    margin-top: 10vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    margin-left: 3vw;
+}
+
+.clientes .p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: -15px;
+    margin-left: 3vw;
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato img {
+    height: 83vh;
+    margin: 20px;
 }
