@@ -324,7 +324,7 @@ main {
 
 .sobre{
     background-color: #262626;    
-    height: 98.8vh;
+    height: 89.5vh;
 }
 
 .clientes .h1{
@@ -352,4 +352,27 @@ main {
 .contato img {
     height: 83vh;
     margin: 20px;
+}
+
+.feedback  {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.text-area textarea {
+    height: 20vh;
+    width: 70vw;
+    border-radius: 10px;
+    border: 1px solid #62A0F1;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 30vh;
 }
